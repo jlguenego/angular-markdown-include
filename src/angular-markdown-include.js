@@ -109,7 +109,6 @@
 					console.log('evalStr=', evalStr);
 					var html = eval(evalStr);
 					$element.html(html);
-					//console.log($element.html());
 
 					if ($attr.script) {
 						$element.append('<script src="' + $attr.script + '"></script>');

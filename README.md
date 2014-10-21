@@ -18,3 +18,5 @@ class Toto {
 int main() {
 }
 ```
+
+bonjour
