@@ -118,7 +118,6 @@
 					$element.html(html);
 
 					if ($attr.script) {
-						$element.append('<script>console.log("coucou");</script>');
 						$element.append('<script src="' + $attr.script + '"></script>');
 					}
 
