@@ -1,7 +1,6 @@
 {
   "name": "angular-markdown-include",
   "description": "Angular module for including markdown and syntax highlighting.",
-  "version": "0.0.1",
   "main": "src/angular-markdown-include.js",
   "license": "MIT",
   "ignore": [
