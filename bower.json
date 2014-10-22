@@ -1,12 +1,12 @@
 {
   "name": "angular-markdown-include",
+  "description": "Angular module for including markdown and syntax highlighting.",
   "version": "0.0.1",
   "homepage": "https://github.com/jlguenego/angular-markdown-include",
   "authors": [
     "Yannis THOMIAS <thomias.yannis@gmail.com>",
     "Jean-Louis GUENEGO <jlguenego@gmail.com>"
   ],
-  "description": "Angular module for markdown and syntax highlighting.",
   "main": "angular-markdown-include.min.js",
   "keywords": [
     "markdown",
