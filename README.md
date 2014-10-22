@@ -60,13 +60,15 @@ Just download the ```angular-mardown-include.min.js```.
 
 ###Bower
 
+Bower installs the minimum to run the library, not the test files.
+
 ```sh
 bower install angular-mardown-include
 ```
 
 ##Build
 
-After installing with **bower**, you can do the following:
+If you clone the Git repository, then you need **npm** to run the build.
 
 ```sh
 npm install
