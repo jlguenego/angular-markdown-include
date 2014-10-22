@@ -56,7 +56,7 @@ See the test directory for two real use cases.
 
 ###Simple method
 
-Just download the angular-mardown-include.min.js.
+Just download the ```angular-mardown-include.min.js```.
 
 ###Bower
 
@@ -66,7 +66,7 @@ bower install angular-mardown-include
 
 ##Build
 
-After installing with bower, you can do the following:
+After installing with **bower**, you can do the following:
 
 ```sh
 npm install
