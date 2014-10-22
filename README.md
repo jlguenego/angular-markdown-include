@@ -14,6 +14,11 @@ This module brings the directive ```md-include```.
 <md-include src="'{mardown file url}'" [autoscroll] parser="{javascript function}" [script="{path to javascript file}"]></md-include>
 ```
 
+Include the module ```angularMarkdownInclude``` in your angular app module.
+```javascript
+var app = angular.module('app', ['angularMarkdownInclude']);
+```
+
 Attributes:
 
 - ```src```: URL of the markdown file. Be careful, it is surrounded by quotes.
