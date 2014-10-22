@@ -28,10 +28,6 @@ and evaluated just after loading.
 
 Here is an example using Marked and HighlightJS.
 
-See the test directory for two real use cases.
-- Showdown and Prettify
-- Marked and HighlightJS
-
 ```html
 <md-include src="'markdown/data.md'" autoscroll parser="myParser"></md-include>
 
@@ -51,6 +47,10 @@ function myParser(str) {
 }
 </script>
 ```
+
+See the test directory for two real use cases.
+- Showdown and Prettify
+- Marked and HighlightJS
 
 ##Installation
 
