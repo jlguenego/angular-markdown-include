@@ -60,7 +60,7 @@ Just download the ```angular-mardown-include.min.js```.
 
 ###Bower
 
-Bower installs the minimum to run the library, not the test files.
+[Bower](http://bower.io/) installs the minimum to run the library, not the test files.
 
 ```sh
 bower install angular-mardown-include
