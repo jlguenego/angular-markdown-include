@@ -64,7 +64,7 @@ Just download the angular-mardown-include.min.js.
 bower install angular-mardown-include
 ```
 
-###Build
+##Build
 
 After installing with bower, you can do the following:
 
