@@ -1,3 +1,11 @@
+/**
+ * This code was largely inspired from the AngularJS source code.
+ *
+ * @license AngularJS v1.2.26
+ * (c) 2010-2014 Google, Inc. http://angularjs.org
+ * License: MIT
+ */
+
 (function() {
 	var app = angular.module('angularMarkdownInclude', []);
 
@@ -106,12 +114,10 @@
 				link: function(scope, $element, $attr, ctrl) {
 					var parserCallback = $attr['parser'] || 'angular.identity';
 					var evalStr = parserCallback + '(ctrl.template)';
-					console.log('evalStr=', evalStr);
 					var html = eval(evalStr);
 					$element.html(html);
 
 					if ($attr.script) {
-						console.log('attr.script');
 						$element.append('<script>console.log("coucou");</script>');
 						$element.append('<script src="' + $attr.script + '"></script>');
 					}
