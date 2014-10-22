@@ -52,7 +52,28 @@ function myParser(str) {
 </script>
 ```
 
-##Note
+##Installation
+
+###Simple method
+
+Just download the angular-mardown-include.min.js.
+
+###Bower
+
+```sh
+bower install angular-mardown-include
+```
+
+###Build
+
+After installing with bower, you can do the following:
+
+```sh
+npm install
+grunt
+```
+
+##Notes
 
 Javascript library for markdown:
 - [Marked](https://github.com/chjj/marked)
@@ -61,6 +82,11 @@ Javascript library for markdown:
 Javascript library for syntax highlighting:
 - [HighlightJS](https://highlightjs.org/)
 - [Prettify](https://code.google.com/p/google-code-prettify/)
+
+##Issues
+
+You can submit your issues on the
+[Github system](https://github.com/jlguenego/angular-markdown-include/issues).
 
 ##License
 
